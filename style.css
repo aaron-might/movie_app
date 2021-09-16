@@ -5,6 +5,31 @@
 }
 
 body {
+    background-color:#434b99;
     font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+.movie {
+    
+    background-color:#9398c7;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    /* height:400px; */
+    color: white;
+     width: 300px;
+}
+
+.movie img {
+    max-width: 100%;
+}
+
+.movie-info {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+.movie-info h3 {
     margin: 0;
 }

@@ -8,12 +8,8 @@ async function getMovies(){
     const respData = await resp.json();
 
     console.log(respData);
-    respData.results.forEach(movie => {
-        const img = document.createElement("img");
-        img.src= IMGPATH + movie.poster_path;
-        document.body.appendChild(img);
-    })
+    
     return respData;
 }
 
-console.log(getMovies());
+getMovies();
